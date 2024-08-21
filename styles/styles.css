@@ -388,7 +388,6 @@ header ul li a:hover {
     }
     #services,
     #info,
-    #sign-up,
     #contact-us {
         padding: 100px 50px 50px;
     }
@@ -452,9 +451,7 @@ header ul li a:hover {
     header.active ul li a {
         font-size: 2em;
     }
-    #sign-up .container {
-        width: 80%; 
-    }
+    
 }
 
 @media (max-width: 700px) {
@@ -478,9 +475,6 @@ header ul li a:hover {
     }
     #contact-us .content a{
         height: 80px;
-    }
-    #sign-up .container {
-        width: 90%;
     }
     .faq h2 {
         font-size: 24px;
