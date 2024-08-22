@@ -177,6 +177,7 @@ header ul li a:hover {
 }
 
 #services,
+#sponsors,
 #info,
 #faq,
 #contact-us {
@@ -213,6 +214,7 @@ header ul li a:hover {
     line-height: 1.5em;
 }
 
+#sponsors .content, 
 #services .content {
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -220,6 +222,7 @@ header ul li a:hover {
     margin: 40px 0 10px 0 ;
 }
 
+#sponsors .content .servicesBx,
 #services .content .servicesBx {
     background-color: #2e2f34;
     padding: 50px 20px;
@@ -231,6 +234,7 @@ header ul li a:hover {
     border: 2px solid #2e2f34;
 }
 
+#sponsors .content .servicesBx:hover,
 #services .content .servicesBx:hover{
     border: 2px solid #1A237E;
     cursor: pointer;
@@ -387,11 +391,13 @@ header ul li a:hover {
         text-align: center;
     }
     #services,
+    #sponsors,
     #info,
     #contact-us {
         padding: 100px 50px 50px;
     }
     #services .content,
+    #sponsors .content,
     #info .content,
     #contact-us .content {
         grid-template-columns: repeat(2,1fr);
@@ -469,6 +475,7 @@ header ul li a:hover {
         right: 110px;
     }
     #services .content,
+    #sponsors .content,
     #info .content,
     #contact-us .content {
         grid-template-columns: repeat(1,1fr);
