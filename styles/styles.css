@@ -364,6 +364,36 @@ header ul li a:hover {
     text-decoration: none;
 }
 
+.contact-form-background{
+    padding: 15px;
+}
+
+.contact-form {
+    background-color: #1c1c1c;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input {
+  background-color: #2c2c2c;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.contact-form textarea{
+    height: 100%;
+    width: 100%;
+    resize: vertical;
+    max-width:800px ;
+    max-height:100px ;
+    
+}
+
 /*Responsive*/
 @media (max-width: 900px) {
     header {
