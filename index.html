@@ -177,17 +177,29 @@
             <p>📩 ¿Quieres comentarnos algo? ¡Contáctanos! 📩</p>
             <div class="contact-form-background">
                 <form class="contact-form">
-                    <input type ="text" name="name" placeholder="Nombre" >
-                    <input type="text" name="lastName" placeholder="Apellido" >
-                    <input type="email" name="email" placeholder="@email.com" >
-                    <textarea name="message" placeholder="¡Escribe aquí tu mensaje!"></textarea>
+                    <label for="name" id="label-name">
+                        Nombre
+                        <input type ="text" id="name" autocomplete="name">
+                    </label>
+                    <label for="lastname" id="label-lastname">
+                        Apellido
+                        <input type="text" id="lastname" autocomplete="family-name" > 
+                    </label>
+                    <label for="email" id="label-email">
+                        Email
+                        <input type="email" id="email" autocomplete="email" >
+                    </label>
+                    <label for="message" id="label-message" class="label-msg">
+                        Mensaje                        
+                        <textarea id="message"  ></textarea>
+                    </label>
                     <div class="center">
                         <button type="submit" class="btn">Enviar</button>
                     </div>
                 </form>
             </div>
-              <p>Do you have any questions or comments? We're here to help! Use the contact form below to send us a message, and we'll get back to you as soon as possible. You can also find us on our social media channels to stay connected.</p>
-               <p> We look forward to hearing from you soon!</p>
+                <p>¿Tienes alguna pregunta o comentario? ¡Estamos aquí para ayudarte! Utiliza el formulario de contacto a continuación para enviarnos un mensaje, y te responderemos lo antes posible. También puedes encontrarnos en nuestras redes sociales para mantenerte conectado.</p>
+                <p>¡Esperamos saber de ti pronto!</p>
         </div>
         <div class="content">
             <a href="/" target="_blank">
