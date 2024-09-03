@@ -244,16 +244,19 @@ header ul li a:hover {
     max-width: 100px;
     opacity: 1;
     transition: 0.5s;
+    margin-top: 20px;
 }
 
 .servicesBx h3 {
     color: #fff;
     font-weight: 500;
-    transition: font-size 0.3s ease
+    transition: font-size 0.3s ease;
+    margin: 0
 }
 
 .servicesBx a {
     text-decoration: none;
+    margin-top: auto
 }
 
 .servicesBx:hover a {
