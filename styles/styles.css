@@ -217,7 +217,7 @@ header ul li a:hover {
 #sponsors .content, 
 #services .content {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
     grid-gap: 20px;
     margin: 40px 0 10px 0 ;
 }
@@ -244,12 +244,25 @@ header ul li a:hover {
     max-width: 100px;
     opacity: 1;
     transition: 0.5s;
+    margin-top: 20px;
 }
 
 .servicesBx h3 {
     color: #fff;
     font-weight: 500;
+    transition: font-size 0.3s ease;
+    margin: 0
 }
+
+.servicesBx a {
+    text-decoration: none;
+    margin-top: auto
+}
+
+.servicesBx:hover a {
+    font-size: 20px;
+}
+
 
 .center {
     width: 100%;
