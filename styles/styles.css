@@ -302,7 +302,7 @@ header ul li a:hover {
     height: 250px;
 }
 .faq {
-    background-color: #222; /* Adjust to match your background color */
+    background-color: #222;
     color: #fff;
     padding: 20px;
 }
@@ -312,23 +312,39 @@ header ul li a:hover {
     border-bottom: 3px solid #d7daff;
 }
 
-.faq ul {
-    list-style: none;
-    padding: 0;
+.faq-item label{
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 2px;
+    transition: all 300ms ease;
+    border-bottom: 3px solid #d7daff; 
 }
 
-.faq li {
-    border-bottom: 3px solid #d7daff;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.faq-item label:hover{
+    background: #1A237E;
 }
-.faq li p {
-    font-size: 24px;
+
+.faq-item .question-content{
+    padding: 0;
+    margin: 0px 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 300ms ease;
 }
-.arrow {
-    font-size: 50px;
+
+
+.btn-faq:checked ~ .question-content{
+    max-height: 600px;
+    padding: 15px 0px;
+    margin-left: 80px;
+    border-bottom: 1px solid #d7daff;
+}
+
+.btn-faq{
+    display: none;
 }
 
 #contact-us .content {
