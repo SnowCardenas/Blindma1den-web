@@ -205,28 +205,29 @@
             <h2>Contacto</h2>
             <p>📩 ¿Quieres comentarnos algo? ¡Contáctanos! 📩</p>
             <div class="contact-form-background">
-                <form class="contact-form">
+                <form class="contact-form" action="send_form.php" method="post">
                     <label for="name" id="label-name">
                         Nombre
-                        <input type ="text" id="name" autocomplete="name">
+                        <input type="text" id="name" name="name" autocomplete="name" required>
                     </label>
                     <label for="lastname" id="label-lastname">
                         Apellido
-                        <input type="text" id="lastname" autocomplete="family-name" > 
+                        <input type="text" id="lastname" name="lastname" autocomplete="family-name" required>
                     </label>
                     <label for="email" id="label-email">
                         Email
-                        <input type="email" id="email" autocomplete="email" >
+                        <input type="email" id="email" name="email" autocomplete="email" required>
                     </label>
                     <label for="message" id="label-message" class="label-msg">
-                        Mensaje                        
-                        <textarea id="message"  ></textarea>
+                        Mensaje
+                        <textarea id="message" name="message" required></textarea>
                     </label>
                     <div class="center">
                         <button type="submit" class="btn">Enviar</button>
                     </div>
                 </form>
             </div>
+            
                 <p>¿Tienes alguna pregunta o comentario? ¡Estamos aquí para ayudarte! Utiliza el formulario de contacto a continuación para enviarnos un mensaje, y te responderemos lo antes posible. También puedes encontrarnos en nuestras redes sociales para mantenerte conectado.</p>
                 <p>¡Esperamos saber de ti pronto!</p>
         </div>
