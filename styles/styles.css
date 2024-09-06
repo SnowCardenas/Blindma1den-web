@@ -330,11 +330,6 @@ header ul li a:hover {
     position: relative 
 }
 
-.faq-item label::after {
-    content: '\2B9A'; /* Flecha hacia abajo */
-    font-size: 16px;
-    transition: transform 300ms ease; /* Transición suave para rotar la flecha */
-}
 
 .btn-faq:checked + label::after {
     transform: rotate(90deg); /* Rota la flecha hacia arriba cuando el contenido está visible */
