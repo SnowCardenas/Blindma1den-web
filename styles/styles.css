@@ -162,7 +162,7 @@ header ul li a:hover {
 #home .hero {
     position: absolute;
     bottom: 100px;
-    right: 180px;
+    right: 130px;
     max-width: 80vh;
     animation: floating 0.8s infinite alternate;
 }
@@ -277,11 +277,12 @@ header ul li a:hover {
 #info .content {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 10px;
+    grid-gap: 15px;
     margin: 40px 0;
 }
 #info .content .imgBx {
     position: relative;
+    padding-bottom: 20px;
 }
 
 #info .textBx {
@@ -291,15 +292,18 @@ header ul li a:hover {
 
 #info .textBx p{
     text-align: start;  
-    font-size: 24px;
+    font-size: 20px;
+    padding-top: 35px;
 }
 #info .textBx h2 {
     font-size: 36px;
+    padding-top: 40px;
 }
 
 #info .content .imgBx img{
-    width: 350px;
-    height: 250px;
+    width: 400px;
+    height: 400px;
+    padding-bottom: 10px;
 }
 .faq {
     background-color: #222;
@@ -313,16 +317,28 @@ header ul li a:hover {
 }
 
 .faq-item label{
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
     font-size: 20px;
     color: #fff;
     cursor: pointer;
     margin-bottom: 2px;
     transition: all 300ms ease;
-    border-bottom: 3px solid #d7daff; 
+    border-bottom: 3px solid #d7daff;
+    position: relative 
 }
 
+.faq-item label::after {
+    content: '\2B9A'; /* Flecha hacia abajo */
+    font-size: 16px;
+    transition: transform 300ms ease; /* Transición suave para rotar la flecha */
+}
+
+.btn-faq:checked + label::after {
+    transform: rotate(90deg); /* Rota la flecha hacia arriba cuando el contenido está visible */
+}
 .faq-item label:hover{
     background: #1A237E;
 }
