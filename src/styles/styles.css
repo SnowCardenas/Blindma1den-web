@@ -241,7 +241,7 @@ header ul li a:hover {
 }
 
 .servicesBx img {
-    max-width: 100px;
+    max-width: 150px;
     opacity: 1;
     transition: 0.5s;
     margin-top: 20px;
@@ -256,7 +256,7 @@ header ul li a:hover {
 
 .servicesBx a {
     text-decoration: none;
-    margin-top: auto
+    /* margin-top: auto */
 }
 
 .servicesBx:hover a {
