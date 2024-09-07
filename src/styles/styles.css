@@ -55,7 +55,7 @@ header ul li a {
 
 header ul li.active a,
 header ul li:hover a{
-    color: #1A237E;
+    color: #9098E1;
 }
 header ul li a:hover {
     transition: 0.5s;
