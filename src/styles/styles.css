@@ -175,7 +175,21 @@ header ul li a:hover {
       transform: translateY(-15px);
     }
 }
-
+#contact{
+    padding-left: 133px;
+    padding-right: 133px;   
+}
+.contact-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.contact-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #services,
 #sponsors,
 #info,
