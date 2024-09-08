@@ -22,5 +22,12 @@
 }
 .hero-right-icon {
     animation: floating 0.8s infinite alternate;
-
+}
+@keyframes floating {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-15px);
+    }
 }
