@@ -45,3 +45,6 @@ main{
     border-color: var(--secondary);
     background-color: var(--secondary);
 }
+.pt-5{
+    padding-top: 5rem;
+}
