@@ -22,12 +22,7 @@ header {
     backdrop-filter: blur(20px);
 }
 
-header .logo {
-    position: relative;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 2em;
-}
+header
 .degrade {
     background: linear-gradient(120deg,#D7DAFF 0%, #666FCF 59%);
     -webkit-background-clip: text;

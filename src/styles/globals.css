@@ -1,0 +1,20 @@
+.gradient{
+    background: linear-gradient(120deg,#D7DAFF 0%, #666FCF 59%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+.gradient:hover{
+    background: linear-gradient(120deg,#666FCF 0%, #D7DAFF 59%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+main{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}

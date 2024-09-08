@@ -1,3 +1,6 @@
+@import url(./globals.css);
+@import url(./header.css);
+
 :root{
     --fontBase: "Manrope", sans-serif;;
     --fontSecondary :'Fraunces', serif;
@@ -14,6 +17,15 @@
     
 }   
 
+@media screen and (min-width: 900px){
+    :root{
+        --headLine1 : 900 5rem/6rem var(--fontBase);
+
+        --body1: 600 1.8rem/3rem var(--fontBase);
+    }
+}
+
+
 *,
 *::after,
 *::before{
@@ -27,4 +39,5 @@ html {
 body{
     font: var(--body1);
     color: var(--primary);
+    background-color: var(--bg-primary);
 }
