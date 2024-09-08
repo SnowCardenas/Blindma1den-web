@@ -1,0 +1,30 @@
+:root{
+    --fontBase: "Manrope", sans-serif;;
+    --fontSecondary :'Fraunces', serif;
+
+    --headLine1 : 900 24px/5rem var(--fontBase);
+
+    --body1: 600 1.6rem/3rem var(--fontBase);
+
+    --bg-primary: #222222;
+
+    --primary: #FFFFFF;
+    --secondary: #AAB1F4;
+    --tertiary: #1A237E;
+    
+}   
+
+*,
+*::after,
+*::before{
+    margin : 0;
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+}
+html {
+    font-size: 62.5%; 
+}
+body{
+    font: var(--body1);
+    color: var(--primary);
+}
