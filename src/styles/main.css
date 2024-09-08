@@ -1,12 +1,13 @@
 @import url(./globals.css);
 @import url(./header.css);
 @import url(./hero.css);
-
+@import url(./services.css);
 :root{
     --fontBase: "Manrope", sans-serif;;
     --fontSecondary :'Fraunces', serif;
 
     --headLine1 : 900 6.4rem/6rem var(--fontBase);
+    --headLine2 : 900 5.4rem/6rem var(--fontBase);
 
     --body1: 600 1.6rem/3rem var(--fontBase);
 
@@ -44,4 +45,7 @@ body{
 }
 .h1{
     font:var(--headLine1 );
+}
+.h2{
+    font:var(--headLine2 );
 }
