@@ -1,11 +1,12 @@
 @import url(./globals.css);
 @import url(./header.css);
+@import url(./hero.css);
 
 :root{
     --fontBase: "Manrope", sans-serif;;
     --fontSecondary :'Fraunces', serif;
 
-    --headLine1 : 900 24px/5rem var(--fontBase);
+    --headLine1 : 900 6.4rem/6rem var(--fontBase);
 
     --body1: 600 1.6rem/3rem var(--fontBase);
 
@@ -16,14 +17,14 @@
     --tertiary: #1A237E;
     
 }   
-
+/* 
 @media screen and (min-width: 900px){
     :root{
         --headLine1 : 900 5rem/6rem var(--fontBase);
 
         --body1: 600 1.8rem/3rem var(--fontBase);
     }
-}
+} */
 
 
 *,
@@ -40,4 +41,7 @@ body{
     font: var(--body1);
     color: var(--primary);
     background-color: var(--bg-primary);
+}
+.h1{
+    font:var(--headLine1 );
 }
