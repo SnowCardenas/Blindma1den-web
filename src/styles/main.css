@@ -4,6 +4,7 @@
 @import url(./services.css);
 @import url(./info.css);
 @import url(./sponsors.css);
+@import url(./faq.css);
 
 :root{
     --fontBase: "Manrope", sans-serif;;
