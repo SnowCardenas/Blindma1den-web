@@ -1,12 +1,17 @@
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 3rem 5rem;
+    /* padding: 3rem 5rem; */
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     color: var(--primary);
-    /* height: calc(100vh - 84px); */
     background: rgba(50, 50, 50, 0.95);
+    backdrop-filter: blur(20px);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 .header-icon{
     font-size: 4rem;
@@ -28,7 +33,6 @@ header {
 .header-menu ul li.active a ,
 .header-menu ul li a:hover{
     color: var(--secondary);
-   
     transition: 0.5s;
     letter-spacing: 1px;
 

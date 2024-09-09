@@ -2,10 +2,16 @@ footer{
     background: radial-gradient(circle at bottom left, #1A237E 0%, #1C2361 25%,  #222 100%);
     padding-top: 10rem;
     padding-bottom: 5rem;
-    display: flex;
-    justify-content: space-between;
     padding-left: 13rem;
     padding-right: 13rem;
+    display: flex;
+    flex-direction: column;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
 }
 .footer-social{
     display: flex;
@@ -18,4 +24,14 @@ footer{
 .footer-icon a:hover{
     color: var(--secondary);
     transition: all 0.7s;
+}
+
+.footer-developers{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.footer-link{
+    color: var(--secondary);
+    text-decoration: none;
 }

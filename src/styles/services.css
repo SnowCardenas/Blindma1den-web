@@ -47,7 +47,10 @@
 .speaker-info{
     padding: 1rem;
 }
+.speaker-info h3{
+  text-align: center;
+}
 .speaker-info a{
     color: var(--secondary);
-    text-emphasis: none;
+    text-decoration: none;
 }   

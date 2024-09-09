@@ -58,12 +58,20 @@ main{
 .pt-5{
     padding-top: 5rem;
 }
+.pr-3{
+    padding-right: 3rem;
+}
 .mt-5{
     margin-top: 5rem;
 }
-
+.mt-4{
+    margin-top: 3rem;
+}
 .mt-3{
     margin-top: 1.5rem;
+}
+.mr-1{
+    margin-right: 1rem;
 }
 .section{
     padding-top: 5rem;
