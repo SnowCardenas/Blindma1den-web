@@ -1,6 +1,7 @@
 #hero{
     min-height: 80vh;
     display: flex;
+    
 }
 .hero-left{
     display: flex;
@@ -29,5 +30,26 @@
     }
     100% {
       transform: translateY(-15px);
+    }
+}
+/* Styles for tablet screens */
+@media (max-width: 1023px) {
+    #hero{
+        padding-top: 20rem;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .hero-left{
+        padding-right: 0;
+    }
+    .hero-right{
+        width: 100%;
+        height: 50vh;
+    }
+    .hero-right-icon{
+        width: 50%;
+    }
+    .hero-left p{
+        font-size: 1.5rem;
     }
 }
