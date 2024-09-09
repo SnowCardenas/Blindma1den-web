@@ -3,6 +3,7 @@
 @import url(./hero.css);
 @import url(./services.css);
 @import url(./info.css);
+@import url(./sponsors.css);
 
 :root{
     --fontBase: "Manrope", sans-serif;;
@@ -11,7 +12,7 @@
     --headLine1 : 900 6.4rem/6rem var(--fontBase);
     --headLine2 : 900 5.4rem/6rem var(--fontBase);
 
-    --body1: 600 1.6rem/3rem var(--fontBase);
+    --body1: 400 1.6rem/3rem var(--fontBase);
 
     --bg-primary: #222222;
 

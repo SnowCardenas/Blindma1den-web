@@ -1,5 +1,4 @@
 #info{
-
     padding-top: 5rem;
     padding-bottom: 5rem;
     text-align: center;
@@ -20,4 +19,8 @@
 }
 .info-description{
     padding: 1rem;
+}
+.info-action{
+    display: flex;
+    justify-content: center;
 }
