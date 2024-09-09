@@ -1,0 +1,39 @@
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 3rem 5rem; */
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: var(--primary);
+    background: rgba(50, 50, 50, 0.95);
+    backdrop-filter: blur(20px);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+.header-icon{
+    font-size: 4rem;
+    font-weight: 900;
+}
+.header-menu ul{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    list-style: none;
+    align-items: center;
+}
+.header-menu ul li a{
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+.header-menu ul li.active a ,
+.header-menu ul li a:hover{
+    color: var(--secondary);
+    transition: 0.5s;
+    letter-spacing: 1px;
+
+}
