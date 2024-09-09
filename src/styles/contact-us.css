@@ -31,3 +31,9 @@
     color: var(--bg-primary);
     outline: none;
 }
+
+@media (max-width: 1023px) {
+    .contact-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
