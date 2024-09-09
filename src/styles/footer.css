@@ -1,0 +1,21 @@
+footer{
+    background: radial-gradient(circle at bottom left, #1A237E 0%, #1C2361 25%,  #222 100%);
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 13rem;
+    padding-right: 13rem;
+}
+.footer-social{
+    display: flex;
+    gap: 2rem;
+}
+.footer-icon a{
+    color: var(--primary);
+    font-size: 2rem;
+}
+.footer-icon a:hover{
+    color: var(--secondary);
+    transition: all 0.7s;
+}
