@@ -37,8 +37,8 @@
 .speakers-container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-gap: 20px;
-    margin: 40px 0 10px 0 ;
+    grid-gap: 2rem;
+    margin: 4rem 0 1rem 0 ;
 }
 .speaker-img img{
     border-radius: 50%;
@@ -53,4 +53,19 @@
 .speaker-info a{
     color: var(--secondary);
     text-decoration: none;
-}   
+}  
+/* Styles for tablet screens */
+@media (max-width: 1023px) {
+    .speakers-container{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 1rem;
+        margin: 4rem 0 1rem 0 ;
+    }
+}
+/* Mobile styles (optional) */
+@media (max-width: 767px) {
+    .speakers-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+  }
+  
