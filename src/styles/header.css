@@ -49,7 +49,7 @@ header {
         display: none;
     }
     .navigation__button{
-        background-color: var(--primary);
+        background-color: var(--secondary);
         height: 6rem;
         width: 6rem;
         position: fixed;
@@ -58,6 +58,7 @@ header {
         border-radius: 50%;
         z-index: 2000;
         text-align: center;
+        cursor: pointer;
     }
     .header-menu{
         display: none;
@@ -137,7 +138,7 @@ header {
     .navigation__icon::after{
         width: 3rem;
         height: .2rem;
-        background-color: var(--bg-primary);
+        background-color: var(--primary);
         display: inline-block;
     }
     .navigation__icon::before,
@@ -148,8 +149,29 @@ header {
     }
     .navigation__icon::before{
         top: 1rem;
+        /* transform-origin: right; */
     }
     .navigation__icon::after{
         top: 2rem;
     }
+    /* .navigation__button:hover
+    .navigation__icon::before{
+        top: -1rem;
+    }
+
+    .navigation__button:hover
+    .navigation__icon::before{
+        top: .1rem;
+    } */
+     .navigation__checkbox:checked  + .navigation__button .navigation__icon{
+        background:transparent;
+     }
+     .navigation__checkbox:checked + .navigation__button .navigation__icon::before{
+        top: 0;
+        transform: rotate(45deg);
+     }
+     .navigation__checkbox:checked  + .navigation__button .navigation__icon::after{
+        top: 0;
+        transform: rotate(-45deg);
+     }
   }
