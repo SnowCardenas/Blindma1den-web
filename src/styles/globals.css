@@ -45,8 +45,25 @@ main{
     border-color: var(--secondary);
     background-color: var(--secondary);
 }
+.btn-secondary{
+    color: var(--primary);
+    border-color: var(--secondary);
+    background-color: var(--secondary);
+}
+.btn-secondary:hover{
+    transition: all 0.7s;
+    border-color: var(--primary);
+    background-color: transparent;
+}
 .pt-5{
     padding-top: 5rem;
+}
+.mt-5{
+    margin-top: 5rem;
+}
+
+.mt-3{
+    margin-top: 1.5rem;
 }
 .section{
     padding-top: 5rem;
@@ -55,4 +72,7 @@ main{
 }
 .font-3xl{
     font-size: 3rem;
-}   
+}
+.flex{
+    display: flex;
+}

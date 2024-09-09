@@ -318,6 +318,40 @@
             </div>
 
        </section>
+       <section id="contact-us" class="section">
+        <h2 class="h2 gradient">Contacto</h2>
+        <p>📩 ¿Quieres comentarnos algo? ¡Contáctanos! 📩</p>
+         <div class="contact-container mt-5">
+            <div>
+                <form  action="send_form.php" method="post" class="contact-form">
+                    <div class="form-item">
+                        <label for="name" id="name">Nombre:</label>
+                        <input type="text" name="name" autocomplete="name" required>
+                    </div>
+                    <div class="form-item mt-3">
+                        <label for="lastname" id="lastname">Apellido:</label>
+                        <input type="text" name="lastname" autocomplete="lastname" required>
+                    </div>
+                    <div class="form-item mt-3">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" autocomplete="email" required>
+                    </div>
+                   <div class="form-item mt-3">
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" required rows="4"></textarea>
+                   </div>
+                   
+                    <div class="flex mt-5">
+                        <button type="submit" class="btn btn-secondary">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="contact-image">
+                <img src="./src/img/home/body_image_4.svg" alt="contacto">
+            </div>
+         </div>
+
+       </section>
     </main>
     <script src="./js/main.js"></script>
 

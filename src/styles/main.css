@@ -5,6 +5,7 @@
 @import url(./info.css);
 @import url(./sponsors.css);
 @import url(./faq.css);
+@import url(./contact-us.css);
 
 :root{
     --fontBase: "Manrope", sans-serif;;
@@ -16,7 +17,8 @@
     --body1: 400 1.6rem/3rem var(--fontBase);
 
     --bg-primary: #222222;
-
+    --bg-secondary:#D7DAFF;
+    /* --bg-secondary:#2c2c2c; */
     --primary: #FFFFFF;
     --secondary: #AAB1F4;
     --tertiary: #1A237E;
