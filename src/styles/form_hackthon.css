@@ -10,8 +10,19 @@
     padding-right: 13rem;
 }
 .hackathon__icon__container{
-    background: radial-gradient(circle, #6A1A7E 0%, #222 75%,  #222 100%);
+    background-image: radial-gradient(circle at center, #6A1A7E,  #222);
     display:flex;
     justify-content: center;
     align-items: center;
+}
+@media (max-width: 1023px) {
+
+    #form__hackathon{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .form__container{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
 }
