@@ -37,6 +37,6 @@ footer{
 }
 @media (max-width: 1023px) {
     .footer-content{
-       flex-direction: row;
+       flex-direction: column;
     }
 }
