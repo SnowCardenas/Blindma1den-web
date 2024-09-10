@@ -1,3 +1,5 @@
+import Swal from 'sweetalert2'
+
 const validateString = (str, field) =>{
     let error = ''
     if(str.length === 0){
@@ -127,7 +129,15 @@ registerForm.addEventListener("submit", e =>{
         }
         try {
             //1.send form
+            Swal.fire({
+                title: 'Registro completado exitosamente',
+                icon: 'success',
+                confirmButtonText: 'Cool'
+              })
             //2. clear fields
+            const inputElements = document.querySelectorAll('input[name]');
+            inputElements.forEach(input => input.value = '')
+
 
         } catch (error) {
             
