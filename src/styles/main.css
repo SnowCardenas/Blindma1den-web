@@ -8,6 +8,8 @@
 @import url(./contact-us.css);
 @import url(./footer.css);
 @import url(./hero_hackthon.css);
+@import url(./form_hackthon.css);
+
 :root{
     --fontBase: "Manrope", sans-serif;;
     --fontSecondary :'Fraunces', serif;

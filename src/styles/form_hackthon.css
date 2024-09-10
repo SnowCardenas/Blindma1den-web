@@ -1,0 +1,17 @@
+#form__hackathon{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem;
+}
+.form__container{
+    padding-left: 13rem;
+    padding-right: 13rem;
+}
+.hackathon__icon__container{
+    background: radial-gradient(circle, #6A1A7E 0%, #222 75%,  #222 100%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
