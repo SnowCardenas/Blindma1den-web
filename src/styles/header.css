@@ -16,6 +16,9 @@ header {
     font-size: 4rem;
     font-weight: 900;
 }
+.header-icon a{
+    text-decoration: none;
+}
 .header-menu ul{
     display: flex;
     flex-direction: row;
