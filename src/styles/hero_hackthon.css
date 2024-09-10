@@ -14,3 +14,9 @@
     max-width: 40rem;
     height: auto;
 }
+
+select{
+    border-radius: 4rem;
+    padding: 1rem;
+    background-color: var(--bg-secondary);
+}
