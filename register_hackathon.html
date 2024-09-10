@@ -57,44 +57,58 @@
                 <h2 class="h2">Donec ut sapien finibus</h2>
                 <p class="mt-5">* Nullam in arcu quis tortor imperdiet feugiat.
                     Curabitur consectetur euismod tristique.</p>
-                <form action="" class="mt-5">
+                <form action="" class="mt-5" id="registerForm">
                     <div class="form-item">
-                        <label for="name" id="name">Nombre</label>
-                        <input type="text" name="name" autocomplete="name" required>
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" autocomplete="name" >
+                        <span id="nameError" class="error-message"></span>
                     </div>
 
                     <div class="form-item">
-                        <label for="lastname" id="lastname">Apellido</label>
-                        <input type="text" name="lastname" autocomplete="lastname" required>
+                        <label for="lastname">Apellido</label>
+                        <input type="text" id="lastname" name="lastname" >
+                        <span id="lastnameError" class="error-message"></span>
                     </div>
 
                     <div class="form-item">
-                        <label for="username" id="username">Username de X</label>
-                        <input type="text" name="username" autocomplete="username" required>
+                        <label for="username" >Username de X</label>
+                        <input type="text" id="username" name="username" value="@">
+                        <span id="usernameError" class="error-message"></span>
                     </div>
 
                     <div class="form-item mt-3">
                         <label for="email">Email</label>
-                        <input type="email" name="email" autocomplete="email" required>
+                        <input type="email" id="email" name="email" autocomplete="email" >
+                        <span id="emailError" class="error-message"></span>
                     </div>
 
                     <div class="form-item mt-3">
-                        <label for="email">¿Hackathon o CTF?</label>
-                        <!-- <input type="email" name="email" autocomplete="email" required> -->
+                        <label for="hackathonCtf">¿Hackathon o CTF?</label>
+                        <select name="hackathonCtf" id="hackathonCtf">
+                            <option value="hackathon">Hackathon</option>
+                            <option value="ctf" selected>CTF</option>
+                        </select>
+                        <span id="hackathonCtfError" class="error-message"></span>
+                        
                     </div>
                     <div class="form-item mt-3">
                         <label for="teamName">Nombre de tu equipo</label>
-                        <input type="text" name="teamName"  required>
+                        <input type="text" id="teamName" name="teamName"  >
+                        <span id="teamNameError" class="error-message"></span>
+
                     </div>
 
                     <div class="form-item mt-3">
-                        <label for="teamMemberNum">Núm de integrantes (Max 3)</label>
-                        <input type="text" name="teamMemberNum"  required>
+                        <label for="teamMemberNum">Número de integrantes (Max 3)</label>
+                        <input type="number" id="teamMemberNum" name="teamMemberNum">
+                        <span id="teamMemberNumError" class="error-message"></span>
                     </div>
 
                     <div class="form-item mt-3">
-                        <label for="country">Pais de residencia</label>
-                        <input type="text" name="country"  required>
+                        <label for="country">País de residencia</label>
+                        <input type="text" name="country"  id="country" >
+                        <span id="countryError" class="error-message"></span>
+
                     </div>
                     <div class="flex mt-5">
                         <button type="submit" class="btn btn-secondary">Enviar</button>
@@ -150,5 +164,6 @@
        </div>
 
     </footer>
+    <script src="./src/js/register.js"></script>
 </body>
 </html>
