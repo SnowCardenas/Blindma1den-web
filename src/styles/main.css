@@ -10,23 +10,26 @@
 @import url(./hero_hackthon.css);
 @import url(./form_hackthon.css);
 
-:root{
-    --fontBase: "Manrope", sans-serif;;
-    --fontSecondary :'Fraunces', serif;
+:root {
+    --fontBase: "Manrope", sans-serif;
+    ;
+    --fontSecondary: 'Fraunces', serif;
 
-    --headLine1 : 900 6.4rem/6rem var(--fontBase);
-    --headLine2 : 900 5.4rem/6rem var(--fontBase);
+    --headLine1: 900 6.4rem/6rem var(--fontBase);
+    --headLine2: 900 5.4rem/6rem var(--fontBase);
 
     --body1: 400 1.6rem/3rem var(--fontBase);
 
     --bg-primary: #222222;
-    --bg-secondary:#D7DAFF;
+    --bg-secondary: #D7DAFF;
     /* --bg-secondary:#2c2c2c; */
     --primary: #FFFFFF;
     --secondary: #AAB1F4;
     --tertiary: #1A237E;
-    
-}   
+
+    overflow-x: hidden;
+}
+
 /* 
 @media screen and (min-width: 900px){
     :root{
@@ -37,24 +40,24 @@
 } */
 
 
-*,
-*::after,
-*::before{
-    margin : 0;
-    box-sizing: inherit;
-    scroll-behavior: smooth;
-}
 html {
-    font-size: 62.5%; 
+    font-size: 62.5%;
 }
-body{
+
+body {
     font: var(--body1);
     color: var(--primary);
     background-color: var(--bg-primary);
 }
-.h1{
-    font:var(--headLine1 );
+
+.h1 {
+    font: var(--headLine1);
 }
-.h2{
-    font:var(--headLine2 );
+
+.h2 {
+    font: var(--headLine2);
+}
+
+section {
+    padding: 3em 2em;
 }

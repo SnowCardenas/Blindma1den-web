@@ -1,55 +1,54 @@
-#hero{
-    min-height: 80vh;
+#hero {
     display: flex;
-    
 }
-.hero-left{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+
+.hero-left {
     gap: 2rem;
-    padding-right: 20rem;
 }
-.hero-left p{
+
+.hero-left p {
     color: var(--secondary);
 }
-.hero-right{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: radial-gradient(circle, #1A237E 0%, #222 75%,  #222 100%)
+
+.hero-right {
+    background: radial-gradient(circle, #1A237E 0%, #222 75%, #222 100%)
 }
+
 .hero-right-icon {
     animation: floating 0.8s infinite alternate;
 }
+
 @keyframes floating {
     0% {
-      transform: translateY(0);
+        transform: translateY(0);
     }
+
     100% {
-      transform: translateY(-15px);
+        transform: translateY(-15px);
     }
 }
+
+.hero-row {
+    padding-top: 15rem;
+}
+
 /* Styles for tablet screens */
 @media (max-width: 1023px) {
-    #hero{
-        padding-top: 20rem;
-        flex-direction: column;
-        gap: 2rem;
-    }
-    .hero-left{
+    .hero-left {
         padding-right: 0;
     }
-    .hero-right{
+
+    .hero-right {
         width: 100%;
         height: 50vh;
+        display: none;
     }
-    .hero-right-icon{
+
+    .hero-right-icon {
         width: 50%;
     }
-    .hero-left p{
+
+    .hero-left p {
         font-size: 1.5rem;
     }
 }

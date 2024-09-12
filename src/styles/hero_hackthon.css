@@ -1,4 +1,4 @@
-#hero__hackathon{
+#hero__hackathon {
     display: flex;
     flex-direction: column;
     padding-top: 10rem;
@@ -6,16 +6,18 @@
     height: 80vh;
     align-items: center;
 }
-#hero__hackathon h1{
+
+#hero__hackathon h1 {
     text-align: center;
 }
-#hero__hackathon img{
+
+#hero__hackathon img {
     width: 100%;
     max-width: 40rem;
     height: auto;
 }
 
-select{
+select {
     border-radius: 4rem;
     padding: 1rem;
     background-color: var(--bg-secondary);

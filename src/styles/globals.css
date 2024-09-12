@@ -1,25 +1,22 @@
-.gradient{
-    background: linear-gradient(120deg,#D7DAFF 0%, #666FCF 59%);
+.gradient {
+    background: linear-gradient(120deg, #D7DAFF 0%, #666FCF 59%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     text-decoration: none;
     transition: background 0.3s ease;
-}
-.gradient:hover{
-    background: linear-gradient(120deg,#666FCF 0%, #D7DAFF 59%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    text-decoration: none;
-    transition: background 0.3s ease;
-}
-main{
-    padding-left: 5rem;
-    padding-right: 5rem;
 }
 
-.btn{
+.gradient:hover {
+    background: linear-gradient(120deg, #666FCF 0%, #D7DAFF 59%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.btn {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.6rem;
@@ -29,58 +26,38 @@ main{
     padding-left: 2.4rem;
     border-width: .1rem;
     border-style: solid;
-    border-radius:1.9rem;
+    border-radius: 1.9rem;
 }
-.btn:hover{
+
+.btn:hover {
     cursor: pointer;
-    
+
 }
-.btn-primary{
+
+.btn-primary {
     color: var(--primary);
     border-color: var(--primary);
     background-color: transparent;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     transition: all 0.7s;
     border-color: var(--secondary);
     background-color: var(--secondary);
 }
-.btn-secondary{
+
+.btn-secondary {
     color: var(--primary);
     border-color: var(--secondary);
     background-color: var(--secondary);
 }
-.btn-secondary:hover{
+
+.btn-secondary:hover {
     transition: all 0.7s;
     border-color: var(--primary);
     background-color: transparent;
 }
-.pt-5{
-    padding-top: 5rem;
-}
-.pr-3{
-    padding-right: 3rem;
-}
-.mt-5{
-    margin-top: 5rem;
-}
-.mt-4{
-    margin-top: 3rem;
-}
-.mt-3{
-    margin-top: 1.5rem;
-}
-.mr-1{
-    margin-right: 1rem;
-}
-.section{
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    text-align: center;
-}
-.font-3xl{
+
+.font-3xl {
     font-size: 3rem;
-}
-.flex{
-    display: flex;
 }
