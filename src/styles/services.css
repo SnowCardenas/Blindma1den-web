@@ -1,71 +1,79 @@
-#services{
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+#services {
+    background-color: var(--secondary);
 }
-#services h2{
+
+#services h2 {
     text-align: center;
 }
-#services p{
+
+#services p {
     text-align: center;
     color: var(--primary);
     margin-top: 2rem;
-    padding-left: 10rem;
-    padding-right: 10rem;
 }
 
-.speakers-container{
-    background-color:var(--secondary);
-    padding: 3rem;
+.speakers {
+    text-align: center;
+}
+
+.speakers-container {
     display: flex;
 }
-.services-card{
+
+.services-card {
     background-color: var(--bg-primary);
-    padding: 2rem;
-    border-radius: 1rem;
-    margin: 2rem;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 1.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
 }
-.speaker-img{
+
+.speaker-img {
     width: 100%;
-    height: 20rem;
+    padding-top: 1.5rem;
     object-fit: cover;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.speakers-container{
+
+.speakers-container {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 2rem;
-    margin: 4rem 0 1rem 0 ;
+    margin: 4rem 0 1rem 0;
 }
-.speaker-img img{
+
+.speaker-img img {
     border-radius: 50%;
 }
 
-.speaker-info{
+.speaker-info {
     padding: 1rem;
 }
-.speaker-info h3{
-  text-align: center;
+
+.speaker-info h3 {
+    text-align: center;
 }
-.speaker-info a{
+
+.speaker-info a {
+    display: flex;
+    justify-content: center;
     color: var(--secondary);
     text-decoration: none;
-}  
+}
+
 /* Styles for tablet screens */
 @media (max-width: 1023px) {
-    .speakers-container{
-        grid-template-columns: repeat(2,1fr);
+    .speakers-container {
+        grid-template-columns: repeat(2, 1fr);
         grid-gap: 1rem;
-        margin: 4rem 0 1rem 0 ;
+        margin: 4rem 0 1rem 0;
     }
 }
+
 /* Mobile styles (optional) */
 @media (max-width: 767px) {
-    .speakers-container{
-        grid-template-columns: repeat(1,1fr);
+    .speakers-container {
+        grid-template-columns: repeat(1, 1fr);
     }
-  }
-  
+}
