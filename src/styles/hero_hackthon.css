@@ -1,9 +1,7 @@
 #hero__hackathon {
     display: flex;
     flex-direction: column;
-    padding-top: 10rem;
     justify-content: center;
-    height: 80vh;
     align-items: center;
 }
 

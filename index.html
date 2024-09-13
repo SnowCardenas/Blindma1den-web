@@ -62,9 +62,12 @@
                     <p>¡Participa en el Evento IT del Año: CTF & Hackathon 2024!</p>
                     <p>
                         ¿Estás listo para llevar tus habilidades en IT al siguiente nivel?</p>
-                    <button class="btn btn-primary">
-                        ¡Quiero ir!
-                    </button>
+
+                    <a href="./register_hackathon.html">
+                        <button class="btn btn-primary">
+                            ¡Quiero ir!
+                        </button>
+                    </a>
                     <!-- <a href="#contact-us" class="btn"></a> -->
                 </div>
                 <div class="hero-right col-12 col-md-6">
@@ -397,27 +400,30 @@
         <section id="contact-us" class="container">
             <h2 class="h2 gradient">Contacto</h2>
             <p>📩 ¿Quieres comentarnos algo? ¡Contáctanos! 📩</p>
-            <div class="contact-container mt-5">
+            <div class="row contact-container mt-5">
                 <div>
                     <form action="send_form.php" method="post" class="contact-form">
-                        <div class="form-item">
+                        <div class="row form-item">
                             <label for="name" id="name">Nombre:</label>
                             <input type="text" name="name" autocomplete="name" required>
                         </div>
-                        <div class="form-item mt-3">
+
+                        <div class="row form-item">
                             <label for="lastname" id="lastname">Apellido:</label>
                             <input type="text" name="lastname" autocomplete="lastname" required>
                         </div>
-                        <div class="form-item mt-3">
+
+                        <div class="row form-item">
                             <label for="email">Email:</label>
                             <input type="email" name="email" autocomplete="email" required>
                         </div>
-                        <div class="form-item mt-3">
+
+                        <div class="row form-item">
                             <label for="message">Mensaje:</label>
                             <textarea id="message" name="message" required rows="4"></textarea>
                         </div>
 
-                        <div class="flex mt-5">
+                        <div class="row form-item mt-5 mb-5">
                             <button type="submit" class="btn btn-secondary">Enviar</button>
                         </div>
                     </form>
